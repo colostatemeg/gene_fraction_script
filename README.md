@@ -4,7 +4,7 @@
 
 This is a script to determine what proportion of a reference sequence (e.g., a gene) is aligned by at least 1 sequence read in a fastq file (i.e., the "gene fraction").
 
-The script to do this is available [on GitHub](https://github.com/colostatemeg/gene_fraction_script/releases)
+The script to do this is available as a jar file [on GitHub](https://github.com/colostatemeg/gene_fraction_script/releases)
 
 The script was written by Adam Dettenwanger.
 
