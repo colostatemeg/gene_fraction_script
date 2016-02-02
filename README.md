@@ -1,7 +1,20 @@
 # gene_fraction_script
-Takes a SAM file and reference database, and calculates the proportion of each target sequence covered by at least 1 sequence read.
 
-Usage:  java -jar gene_fraction_calculator.jar [-t <int>][-V][-m <missMatchesOutFile>] -d <database.fa> -i <samFile.sam> -o <outputFile>
+##Summary
+
+This is a script to determine what proportion of a reference sequence (e.g., a gene) is aligned by at least 1 sequence read in a fastq file (i.e., the "gene fraction").
+
+The script to do this is available [on GitHub](https://github.com/colostatemeg/gene_fraction_script/releases)
+
+The script was written by Adam Dettenwanger.
+
+##Usage
+
+The script takes as input a SAM file and a database of reference sequences.  It outputs 1 required file, which includes the gene fraction for each identified reference sequences.  It will also output a mismatch file, if specified.
+
+Command-line usage:
+
+java -jar gene_fraction_calculator.jar [-t <int>][-V][-m <missMatchesOutFile>] -d <database.fa> -i <samFile.sam> -o <outputFile>
 
 Required parameters:
 
